@@ -1,0 +1,2 @@
+MQTT utiliza a porta 1889/TCP por padrão
+MQTT TLS (modo seguro) utiliza a porta 1883

@@ -1,0 +1,4 @@
+1- Iniciar o terminal no modo root (certifique-se que o ip está fixo)
+2- instalar mosquivo: apt-get intall mosquitto
+3- Verificar status com o comando: service mosquitto status
+4- Ative o mosquitto on boot com o comando: systemctl enable mosquitto

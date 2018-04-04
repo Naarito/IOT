@@ -1,0 +1,9 @@
+1- Instalar Arduino IDE
+2- Adicionar link nas prefs: http://arduino.esp8266.com/stable/package_esp8266com_index.json 
+3- Adicionar o ESP8266 no "Board Manager"
+4- Selecionar o NodeMCU 1.0
+5- Selecionar a porta COM correta com ajuda do gerenciador de dispositivos.
+6- No gerenciador de bibliotecas, encontrar a biblioteca do DHT, do Adafruit Unified, SSD1306 e Adafruit GFX 
+7- Na pasta das bibliotecas do Arduino IDE, encontrar a pasta do SSD1306 e alterar o arquivo .h para aceitar displays 128x64 ao invés de 32
+8- Utilizar o exemplo do SSD1306 x64 em conjunto com o i2c scanner para descobrir qual o endereço do seu display
+  
